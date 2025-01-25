@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ทำตาราง</title>
+</head>
+<body>
+    <!-- Table Tag (Block Tag) -->
+    <h2>ตารางแบบที่1 :cell มีขนาดเท่ากัน</h2>
+    <table border="1" width="100%" style="text-align: center;">
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+            <td>e</td>
+        </tr>
+        <tr>
+            <td>f</td>
+            <td>g</td>
+            <td>h</td>
+            <td>i</td>
+            <td>j</td>
+        </tr>
+        <tr>
+            <td>k</td>
+            <td>l</td>
+            <td>m</td>
+            <td>n</td>
+            <td>o</td>
+        </tr>
+        <tr>
+            <td>p</td>
+            <td>q</td>
+            <td>r</td>
+            <td>s</td>
+            <td>t</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <h2>ตารางแบบที่2 :cell มีขนาดไม่เท่ากัน</h2>
+    <table border="1" width="100%" style="text-align: center;">
+     <tr>
+        <td colspan="2">11</td>
+        <td>11</td>
+        <td>11</td>
+        <td rowspan="2">11</td>
+     </tr>
+     <tr>
+        <td>22</td>
+        <td colspan="2" rowspan="2">22</td>
+        <td>22</td>
+     </tr>
+     <tr>
+        <td rowspan="2">33</td>
+        <td>33</td>
+        <td>33</td>
+        
+     </tr>
+     <tr>
+        <td>44</td>
+        <td colspan="3">44</td>
+        
+     </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <h2>ตารางแบบที่2 :ทำกันเองจ้าาาาาา</h2>
+    <table border="1" width="100%" style="text-align: center;">
+        <tr>
+            <td colspan="2" rowspan="2">11</td>
+            <td>11</td>
+            <td colspan="2">11</td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>22</td>
+            <td rowspan="4">22</td>
+            
+        </tr>
+        <tr>
+            <td>33</td>
+            <td colspan="3">33</td>
+        </tr>
+        <tr>
+          <td rowspan="3">44</td>
+          <td colspan="3">44</td>
+        </tr>
+        <tr>
+            <td>55</td>
+            <td rowspan="2">55</td>
+            <td>55</td>
+        </tr>
+        <tr>
+            <td>66</td>
+            <td>66</td>
+            <td>66</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <h2>ตารางแบบที่3 :แบบมีหัวตาราง (แนวตั้ง )</h2>
+    <table border="1" width="100%">
+        <tr>
+            <th>No.</th>
+            <th>ชื่อ-สกุล</th>
+            <th>อายุ</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Teerawut Promsiri</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Lotus Promsiri</td>
+            <td>31</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>   
+    <h2>ตารางแบบที่3 :แบบมีหัวตาราง (แนวนอน )</h2>
+    <table border="1" width="100%">
+        <tr>
+            <th>ภาคกลง</th>
+            <td>กรุงเทพ</td>
+            <td>สมุทรสาคร</td>
+            <td>กาญจนบุรี</td>
+        </tr>
+        <tr>
+            <th>ภาคเหนือ</th>
+            <td>นาน</td>
+            <td>ลำปาง</td>
+            <td>แพร่</td>
+        </tr>
+        <tr>
+            <th>ภาคใต้</th>
+            <td>ระนอง</td>
+            <td>ยะลว</td>
+            <td>นครศรีธรรมราช</td>
+        </tr>
+
+    </table>
+    <br>
+    <hr>
+    <br>
+    <h2>ตารางแบบที่4 :แบบที่มีสัดส่วนของตาราง</h2>
+    <table border="1" width="100%">
+        <caption>
+        <h2>รายการซื้อสินค้า</h2>
+    </caption>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>ชื่อสินค้า</th>
+                <th>ราคา</th>
+            </tr>
+         
+        </thead>
+        <tr>
+            <td>1.</td>
+            <td>ปากา</td>
+            <td>500</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>ยางลบ</td>
+            <td>500</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="2">รวมเป็นเงิน</td>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+
+    </table>
+        
+    
+</body>
+
+</html>

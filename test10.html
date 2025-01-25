@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Form Tag (Block Tag) -->
+     <!-- เป็นเท็กที่เกี่ยวกับการป้อนหรือเลือกโดยผู้ใช้ -->
+     <!-- รายละเอียดของ form เป็น (Inline Tag) -->
+      <!-- Method คือ วิธีการส่งข้อมูลไปยังฝั่งเว็บเพจ  -->
+       <!-- :Post , Put , Patch , Delete , Get  -->
+     <form action="" method="" enctype="multipart/form-data">
+        <label for="">ป้อนข้อความ:</label><br>
+        <input type="text" id="" name="" placeholder="ป้อนได้ทุกอย่าง"><br>
+        <br>
+        <br>
+        <label for="">ป้อนตัวเลข</label><br>
+        <input type="number" name="" id="" placeholder="ป้อนตัวเลขเท่านั้น"><br>
+        <br>
+        <br>
+        <label for="">ป้อนรหัสผ่าน</label><br>
+        <input type="password" name="" id="" placeholder="ป้อนรหัสผ่านเท่านั้น"><br>
+        <br>
+        <br>
+        <label for="">ป้อนอีเมล</label><br>
+        <input type="email" name="" id="" placeholder="ป้อนอีเมลเท่านั้น"><br>
+        <br>
+        <br>
+        <label for="">ป้อนวันที่</label><br>
+        <input type="date" name="" id="" placeholder="ป้อนวันที่เท่านั้น"><br>
+        <br>
+        <br>
+        <label for="">ป้อนวันที่และเวลา</label><br>
+        <input type="datetime-local" name="" id="" placeholder="ป้อนวันที่และเวลาเท่านั้น"><br>
+        <br>
+        <br>
+        <label for="">ป้อนวันที่และเวลา</label><br>
+        <input type="datetime" name="" id="" placeholder="ป้อนวันที่และเวลาเท่านั้น"><br>
+        <br>
+        <br>
+        <label for="">เลือกคำนำหน้านาม</label>
+        <input type="radio" name="ตั้งเองอะไรก็ได้และชื่อเดี่ยวกันให้สื่อ" id="" value="นาย">นาย
+        <input type="radio" name="ตั้งเองอะไรก็ได้และชื่อเดี่ยวกันให้สื่อ" id="" checked value="นาง">นาง
+        <input type="radio" name="ตั้งเองอะไรก็ได้และชื่อเดี่ยวกันให้สื่อ" id="" value="นางสาว">นางสาว
+        <input type="radio" name="ตั้งเองอะไรก็ได้และชื่อเดี่ยวกันให้สื่อ" id="" value="boy">ด.ช.
+        <input type="radio" name="ตั้งเองอะไรก็ได้และชื่อเดี่ยวกันให้สื่อ" id="" value="girl">ด.ญ.
+        <br>
+        <br>
+        <label for="">จังหวัด</label>  <!-- Dropdown List -->
+        <select name="" id="">
+            <option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option>
+            <option value="พะเยา">พะเยา</option>
+            <option value="ประจวบคีรี">ประจวบคีรี</option>
+            <option value="กาญจนบุรี">กาญจนบุรี</option>
+        </select> 
+        <br>
+        <br>
+        <label for="">เลือกได้มากว่า 1 อาหารที่ชอบ</label>
+        <input type="checkbox" name="อาหารที่ชอบ" id="" value="11" checked>ข้าว
+        <input type="checkbox" name="อาหารที่ชอบ" id="" value="22">ข้าวผัด
+        <input type="checkbox" name="อาหารที่ชอบ" id="" value="33">ข้าวไข่มุก
+        <input type="checkbox" name="อาหารที่ชอบ" id="" value="44" checked>ข้าวไข่มุก
+        <br>
+        <br>
+        <label for="">เลือกวันที่</label>
+        <input type="date" name="" id="">
+        <br>
+        <br>
+        <label for="">เลือกเวลา</label>
+        <input type="time" name="" id="">
+        <br>
+        <br>
+        <label for="">เลือกวันที่และเวลา</label>
+        <input type="datetime-local" name="" id="">
+        <br>
+        <br>
+        <label for="">เลือกไฟล์</label>
+        <input type="file" name="" id="" accept=".jpg,.png,.gif">
+        <!-- accept ใช้กับ Input Type ชนิดไฟล์ เช่น .jpg,.png,.gif,.doc,.docx,.pdf  -->
+         <br>
+         <br>
+         <input type="hidden" name="std-type ตั้งเองอะไรก็ได้และชื่อเดี่ยวกันให้สื่อ" id="" value="ปกติ">
+         <br>
+         <br>
+        <input type="submit" value="ส่ง">
+        <br>
+        <input type="reset" value="รีเซ็ต">
+        <br>
+        <!-- ปุ่มจะให้ทำไรต้องเขียนเอง -->
+        <button>ลงทะเบียน</button>
+
+        <input type="button" value="ปุ่มนี้จะเป็นปกติ">
+
+            
+
+    
+     </form>
+</body>
+</html>
